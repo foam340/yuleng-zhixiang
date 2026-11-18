@@ -1,0 +1,18 @@
+{
+  "name": "biocity-coldchain-demo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "重庆国际生物城冷链池化共享比赛演示平台",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup:wechat": "node scripts/setup-wechat.cjs",
+    "check:publication": "node scripts/check-publication.cjs",
+    "start": "node server/index.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check.js",
+    "compile:wechat": "node scripts/compile-wechat.cjs",
+    "preview:layout": "node scripts/preview-layout.cjs",
+    "capture:layout": "node scripts/capture-layout.cjs"
+  }
+}

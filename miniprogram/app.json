@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/resources/index",
+    "pages/booking/index",
+    "pages/orders/index",
+    "pages/profile/index",
+    "pages/detail/index",
+    "pages/alliance/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "渝冷智享",
+    "navigationBarBackgroundColor": "#F3F7FB",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F3F7FB"
+  },
+  "tabBar": {
+    "color": "#627484",
+    "selectedColor": "#096C9C",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "工作台",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/resources/index",
+        "text": "资源池",
+        "iconPath": "assets/icons/resource.png",
+        "selectedIconPath": "assets/icons/resource-active.png"
+      },
+      {
+        "pagePath": "pages/booking/index",
+        "text": "预约",
+        "iconPath": "assets/icons/calendar.png",
+        "selectedIconPath": "assets/icons/calendar-active.png"
+      },
+      {
+        "pagePath": "pages/orders/index",
+        "text": "订单",
+        "iconPath": "assets/icons/orders.png",
+        "selectedIconPath": "assets/icons/orders-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "assets/icons/user.png",
+        "selectedIconPath": "assets/icons/user-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
